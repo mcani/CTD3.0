@@ -1,0 +1,25 @@
+.movies {}
+
+.movies .movie .name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+    color: #333333
+}
+
+.movies .movie .name a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.movies .movie .name .release_date {
+    margin-left: 20px;
+    color: #828282;
+    font-size: 22px;
+}
+
+.movies .movie .director {
+    color: #828282;
+    margin-top: -16px;
+}
