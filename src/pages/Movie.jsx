@@ -34,9 +34,9 @@ export default function Movie() {
     <>
       {loading ? "Loading..." : (
         <>
-          <div>{data.properties.title}</div>
-          <div>{data.properties.opening_crawl}</div>
-          <p>SHIPS:</p>
+          <div className='filmsName'>{data.properties.title}</div>
+          <div className='filmsDescr'>{data.properties.opening_crawl}</div>
+          <p className='ShipsOnMov'>SHIPS:</p>
           <div className="refships">
             {data.properties.starships.map((ship, key) => (
               <RefShip name={key+1} uid={ship.split('/').pop()} />

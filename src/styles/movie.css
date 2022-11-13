@@ -1,0 +1,55 @@
+
+movie {}
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    flex-direction: column;
+    color: #333333;
+}
+.refships{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.filmsName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+    color: #333333
+}
+.filmsDescr{
+    margin-left: 30px;
+    margin-right: 220px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: #333333;
+}
+
+/* //numbers of ships */
+.name{
+    margin-left: 30px;
+    margin-right: 220px;
+    font-size: 20px;  
+    color: #333333;
+}
+
+/* //the word ships */
+.ShipsOnMov{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    text-decoration: none;
+    font-size: 24px; 
+    color: #333333;
+
+}

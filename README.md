@@ -1,3 +1,19 @@
+Hello ,CTD.
+Plese read this and you could easily check my project
+there are a few commands you probably know but I would like to remin you:
+
+ "cd" can move the paith in the terminal
+if you want to make a step back use "cd .." 
+lt will show you the list of the files
+
+ALRIGHT! Let's start the project
+use "npm install" command first 
+"npm start" will start the project
+
+here we go!
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
